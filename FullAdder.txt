@@ -9,5 +9,5 @@ CHIP FullAdder{
 
 }
 
-//Help article used to construct Full Adder.
-/** GeeksforGeeks. (2017). Full Adder in Digital Logic. [online] Available at: https://www.geeksforgeeks.org/full-adder-in-digital-logic/.*/
+//Help article used to view Full Adder Logic Gate.
+//GeeksforGeeks. (2017). Full Adder in Digital Logic. [online] Available at: https://www.geeksforgeeks.org/full-adder-in-digital-logic/
