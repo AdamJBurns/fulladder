@@ -1,0 +1,13 @@
+CHIP FullAdder{
+    IN a, b, c;
+    OUT sum, carry;
+
+    PARTS:
+    HalfAdder(a=a, b=b, sum=sumgate1, carry=carrygate1);
+    HalfAdder(a=sumgate1, b=c, sum=sum, carry=carrygate2);
+    Or(a=carrygate1, b=carrygate2, out=carry);
+
+}
+
+//Help article used to construct Full Adder.
+/** GeeksforGeeks. (2017). Full Adder in Digital Logic. [online] Available at: https://www.geeksforgeeks.org/full-adder-in-digital-logic/.*/
